@@ -1,0 +1,27 @@
+#left
+{
+  width: 459px;
+  height: 287px;
+  float: left;
+  background: #ccc;
+}
+
+#right
+{
+  width: 482px;
+  height: 287px;
+  float: left;
+  background: #888;
+
+}
+
+#bottom
+{
+  width: 941px;
+  height: auto;
+  background: #555;
+}
+
+.clear{
+  clear: both;
+}
