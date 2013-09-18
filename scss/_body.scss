@@ -4,6 +4,8 @@
   height: 287px;
   float: left;
   background: #ccc;
+
+
 }
 
 #right
@@ -12,16 +14,19 @@
   height: 287px;
   float: left;
   background: #888;
-
 }
 
 #bottom
 {
   width: 941px;
-  height: auto;
+  height: 300px;
   background: #555;
 }
 
 .clear{
   clear: both;
+}
+
+.bottompics {
+  float: left;
 }

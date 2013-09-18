@@ -5,8 +5,13 @@
 @import 'body';
 @import 'table';
 
+body {
+  font-family: $brand_font;
+}
 #container{
   width: 941px;
   height: 800px;
   margin: auto;
 }
+
+

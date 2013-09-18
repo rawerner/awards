@@ -1,61 +1,31 @@
-/*
-Syntax error: Invalid CSS after "font-family:": expected pseudoclass or pseudoelement, was " Arial, san-serif;"
-        on line 1 of scss/_fonts.scss
-        from line 1 of scss/style.scss
+@import url(http://fonts.googleapis.com/css?family=Varela);
+#left {
+  width: 459px;
+  height: 287px;
+  float: left;
+  background: #ccc; }
 
-1: font-family: Arial, san-serif;
-2: 
-3: $brand_font : Arial, sans-serif;
+#right {
+  width: 482px;
+  height: 287px;
+  float: left;
+  background: #888; }
 
-Backtrace:
-scss/_fonts.scss:1
-scss/style.scss:1
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1145:in `expected'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1083:in `expected'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1065:in `expr!'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:793:in `pseudo'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:677:in `simple_selector_sequence'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:639:in `_selector'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:618:in `selector'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:602:in `selector_sequence'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:527:in `ruleset'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:552:in `block_child'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:542:in `block_contents'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:82:in `stylesheet'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:27:in `parse'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:342:in `_to_tree'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:274:in `to_tree'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:225:in `visit_import'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `map'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/root_node.rb:20:in `render'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:315:in `_render'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/engine.rb:262:in `render'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `each'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:283:in `block in watch'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:198:in `call'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:198:in `report_changes'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:210:in `poll_changed_dirs'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/linux.rb:48:in `block in start'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"font-family:\": expected pseudoclass or pseudoelement, was \" Arial, san-serif;\"\A         on line 1 of scss/_fonts.scss\A         from line 1 of scss/style.scss\A \A 1: font-family: Arial, san-serif;\A 2: \A 3: $brand_font : Arial, sans-serif;"; }
+#bottom {
+  width: 941px;
+  height: 300px;
+  background: #555; }
+
+.clear {
+  clear: both; }
+
+.bottompics {
+  float: left; }
+
+body {
+  font-family: "Varela", sans-serif; }
+
+#container {
+  width: 941px;
+  height: 800px;
+  margin: auto; }
