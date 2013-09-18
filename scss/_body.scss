@@ -1,10 +1,16 @@
 #left
 {
   width: 459px;
-  height: 287px;
+  height: 319px;
+  padding-bottom: 10px;
   float: left;
-  background: #ccc;
-
+  h3 {
+    font-size: $normal_font_size + 2px;
+    span {
+      font-size: $normal_font_size;
+      color: $secondary_color;
+    }
+  }
 
 }
 
@@ -19,8 +25,8 @@
 #bottom
 {
   width: 941px;
-  height: 300px;
-  background: #555;
+  height: 216px;
+  padding-top: 40px;
 }
 
 .clear{
@@ -29,4 +35,25 @@
 
 .bottompics {
   float: left;
+  line-height: 12px;
+}
+
+.bottompics:nth-child(1) {
+  margin-right: 23px;
+}
+
+.bottompics:nth-child(2) {
+  margin-right: 23px;
+}
+
+.bottompics:nth-child(3) {
+  margin-right: 23px;
+}
+
+h3 {
+  font-size: $normal_font_size + 2px;
+}
+h6 {
+  color: $secondary_color;
+  font-size: $normal_font_size;
 }
