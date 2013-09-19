@@ -1,11 +1,10 @@
 /*
-Syntax error: Invalid CSS after "font-family:": expected pseudoclass or pseudoelement, was " Arial, san-serif;"
+Syntax error: Invalid CSS after "font-family :": expected pseudoclass or pseudoelement, was " Arial, san-serif;"
         on line 1 of scss/_fonts.scss
         from line 1 of scss/style.scss
 
-1: font-family: Arial, san-serif;
-2: 
-3: $brand_font : Arial, sans-serif;
+1: font-family : Arial, san-serif;
+2: $brand_font : Arial, sans-serif;
 
 Backtrace:
 scss/_fonts.scss:1
@@ -14,8 +13,8 @@ scss/style.scss:1
 /home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1083:in `expected'
 /home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:1065:in `expr!'
 /home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:793:in `pseudo'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:677:in `simple_selector_sequence'
-/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:639:in `_selector'
+/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:671:in `simple_selector_sequence'
+/home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:645:in `_selector'
 /home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:618:in `selector'
 /home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:602:in `selector_sequence'
 /home/rachel/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/scss/parser.rb:527:in `ruleset'
@@ -58,4 +57,4 @@ scss/style.scss:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"font-family:\": expected pseudoclass or pseudoelement, was \" Arial, san-serif;\"\A         on line 1 of scss/_fonts.scss\A         from line 1 of scss/style.scss\A \A 1: font-family: Arial, san-serif;\A 2: \A 3: $brand_font : Arial, sans-serif;"; }
+  content: "Syntax error: Invalid CSS after \"font-family :\": expected pseudoclass or pseudoelement, was \" Arial, san-serif;\"\A         on line 1 of scss/_fonts.scss\A         from line 1 of scss/style.scss\A \A 1: font-family : Arial, san-serif;\A 2: $brand_font : Arial, sans-serif;"; }
