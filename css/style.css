@@ -174,6 +174,29 @@ h6 {
   height: 287px;
   float: left;
   margin-top: 0px; }
+  #tablebox .legend ol li {
+    border-radius: 50% 50% 50% 50%;
+    content: "";
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    margin-right: 15px;
+    list-style-type: none;
+    color: #aaaaaa;
+    font-size: .8em;
+    text-transform: uppercase; }
+  #tablebox .legend ol {
+    float: left;
+    margin-right: 10px;
+    margin-top: 2px; }
+  #tablebox .legend ol li.design {
+    background: #df6c4f; }
+  #tablebox .legend ol li.design {
+    background: #ecd06f; }
+  #tablebox .legend ol li.design {
+    background: #409f89; }
+  #tablebox .legend ol li.design {
+    background: #1a99aa; }
   #tablebox > ul {
     padding-left: 10px; }
   #tablebox ul li.tbltitle {
