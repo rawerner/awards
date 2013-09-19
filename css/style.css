@@ -1,4 +1,75 @@
 @import url(http://fonts.googleapis.com/css?family=Varela);
+header {
+  position: relative;
+  height: 180px; }
+  header #logo {
+    position: absolute;
+    top: 50px;
+    width: 288px;
+    height: 56px; }
+  header #slogan {
+    position: absolute;
+    top: 76px;
+    left: 300px;
+    display: inline-block;
+    font-size: 1.1em;
+    margin: 0 0 20px 0; }
+    header #slogan span {
+      border-bottom: 1px solid #444458;
+      color: rgba(0, 0, 0, 0); }
+  header nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.3em; }
+    header nav ul {
+      float: left;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 80%; }
+      header nav ul li {
+        display: inline-block;
+        font-family: sans-serif;
+        font-weight: bold;
+        margin-right: 20px; }
+      header nav ul li:last-child a {
+        color: #409f89; }
+      header nav ul li a:hover {
+        color: gray; }
+    header nav input {
+      background-color: #e4e6e5;
+      border: 1px solid gray;
+      font-size: 0.9em;
+      height: 1.8em;
+      float: right;
+      margin: auto; }
+  header #login {
+    background-color: #444;
+    float: right;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    height: 32px;
+    width: 136px;
+    padding: 0 15px; }
+    header #login #or {
+      color: #aaa; }
+  header #top_nav ul {
+    list-style-type: none;
+    border: 0;
+    margin: 0;
+    float: right; }
+    header #top_nav ul li {
+      display: inline-block; }
+
+.icons a {
+  text-indent: 999em; }
+
 #navlist {
   padding: 0;
   margin: 0; }
@@ -168,3 +239,7 @@ body {
   width: 941px;
   height: 800px;
   margin: auto; }
+
+a {
+  text-decoration: none;
+  color: #444458; }

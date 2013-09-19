@@ -1,1 +1,89 @@
 //header.scss
+
+header {
+	position: relative;
+	height: 180px;
+
+	#logo {
+		position: absolute;
+		top: 50px;
+		width: 288px;
+		height: 56px;
+	}
+	#slogan {
+		position: absolute;
+		top: 76px;
+		left: 300px;
+		display: inline-block;
+		font-size: 1.1em;
+		margin: 0 0 20px 0;
+		span {
+			border-bottom: 1px solid #444458;
+			color: rgba(0, 0, 0, 0)
+		}
+	}
+	nav {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+		font-size: 1.3em;
+		ul {
+			float: left;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			width: 80%;
+			li {
+				display: inline-block;
+				font-family: sans-serif;
+				font-weight: bold;
+				margin-right: 20px;
+			}
+			li:last-child a {
+				color: #409f89;
+			}
+			li a:hover {
+				color: gray;
+			}
+		}
+		input {
+			background-color: $background_color; 
+			border: 1px solid gray;
+			font-size: 0.9em;
+			height: 1.8em;
+			float: right;
+			margin: auto;
+		}
+	}
+	#login {
+		background-color: #444;
+		float: right;
+		text-align: center;
+		line-height: 30px;
+		color: white;
+		font-weight: bold;
+		height: 32px;
+		width: 136px;
+		padding: 0 15px;
+		#or {
+			color: #aaa;
+		}
+	}
+	#top_nav {
+		ul {
+			list-style-type: none;
+			border: 0;
+			margin: 0;
+			float: right;
+			li {
+				display: inline-block;
+			}
+		}
+	}
+}
+			.icons a {
+				text-indent: 999em;
+			}
