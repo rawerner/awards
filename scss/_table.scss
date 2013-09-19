@@ -15,7 +15,51 @@ height: 287px;
 float:left;
 margin-top: 0px;
 
-  > ul{
+
+ .legend ol li
+ {
+ border-radius: 50% 50% 50% 50%;
+ content:"";
+ display: inline-block;
+ height:8px;
+ width:8px;
+ margin-right:15px;
+ list-style-type: none;
+ color:$legend_color;
+ font-size:.8em;
+ text-transform: uppercase;
+ }
+
+ .legend ol
+ {
+  float:left;
+  margin-right:10px;
+  margin-top:2px;
+ }
+
+ .legend ol li.design
+ {
+  background:$designcirc;
+
+ }
+
+.legend ol li.design
+ {
+  background:$creativitycir;
+ }
+
+.legend ol li.design
+ {
+  background:$usabilitycir;
+ }
+
+.legend ol li.design
+ {
+  background:$contentcir;
+ }
+
+  > ul
+  {
     padding-left:10px;
   }
 
@@ -122,6 +166,7 @@ margin-top: 0px;
   }
 
 }
+
 
 
 
