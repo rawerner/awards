@@ -14,7 +14,7 @@
   width: 482px;
   height: 287px;
   float: left;
-  background: #888; }
+  background: #e4e6e5; }
 
 #bottom {
   width: 941px;
@@ -66,33 +66,57 @@ h6 {
     text-transform: uppercase; }
   #tablebox ul li {
     height: 30px;
-    overflow: hidden; }
+    overflow: hidden;
+    list-style: none; }
   #tablebox ul li div {
     float: left;
     overflow: hidden; }
   #tablebox ul li .name {
-    width: 100px; }
+    width: 100px;
+    margin-right: 5px; }
   #tablebox ul li .name a {
     color: #444444;
     text-decoration: none; }
   #tablebox ul li .website {
-    width: 35% a;
-      width-text-decoration: none;
-      width-transition: color .25s ease-out 0s;
-      width-font-style: italic; }
-    #tablebox ul li .website a:hover {
-      color: #409f89; }
+    width: 125px;
+    margin-right: 5px; }
+  #tablebox ul li .website a {
+    text-decoration: none;
+    transition: color .25s ease-out 0s;
+    font-style: italic;
+    color: #409f89; }
+  #tablebox ul li .website a:hover {
+    color: #000000; }
   #tablebox ul li .country {
-    width: 17%; }
+    width: 55px;
+    margin-right: 5px; }
   #tablebox ul li .notes {
-    width: 18%; }
+    width: 30px; }
   #tablebox ul li .note {
     width: 8%; }
+  #tablebox .list-notes span {
+    border-radius: 50% 50% 50% 50%;
+    color: white;
+    display: inline-block;
+    font-size: .8em;
+    height: 16px;
+    line-height: 17px;
+    text-align: center;
+    width: 16px; }
+  #tablebox .list-notes span.design {
+    background: #df6c4f; }
+  #tablebox .list-notes span.creativity {
+    background: #ecd06f; }
+  #tablebox .list-notes span.usability {
+    background: #409f89; }
+  #tablebox .list-notes span.content {
+    background: #1a99aa; }
 
 body {
   font-family: "Varela", sans-serif;
   font-size: 12px;
-  color: #444458; }
+  color: #444458;
+  background: #e4e6e5; }
 
 #container {
   width: 941px;

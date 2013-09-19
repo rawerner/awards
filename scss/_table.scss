@@ -31,6 +31,7 @@ margin-top: 0px;
   {
    height: 30px;
    overflow: hidden;
+   list-style: none;
   }
 
   ul li div
@@ -42,6 +43,7 @@ margin-top: 0px;
   ul li .name
   {
     width: 100px;
+    margin-right:5px;
   }
 
   ul li .name a
@@ -52,35 +54,73 @@ margin-top: 0px;
 
   ul li .website
   {
-    width: 35%
+    width: 125px;
+    margin-right:5px;
+  }
 
-    a
+  ul li .website a
     {
      text-decoration: none;
      transition: color .25s ease-out 0s;
      font-style: italic;
+     color:$websitelinks_color;
     }
 
-    a:hover
+  ul li .website a:hover
       {
-       color:$websitelinks_color;
+       color: #000000;
       }
-  }
 
   ul li .country
   {
-    width: 17%
+    width: 55px;
+    margin-right:5px;
   }
 
   ul li .notes
   {
-    width: 18%
+    width: 30px;
+
   }
 
  ul li .note
   {
     width: 8%
   }
+
+ .list-notes span
+ {
+  border-radius: 50% 50% 50% 50%;
+  color:$span_colors;
+  display:inline-block;
+  font-size:.8em;
+  height:16px;
+  line-height:17px;
+  text-align:center;
+  width:16px;
+
+ }
+
+.list-notes span.design
+  {
+    background:$designcirc;
+  }
+
+ .list-notes span.creativity
+  {
+    background:$creativitycir;
+  }
+
+ .list-notes span.usability
+  {
+    background:$usabilitycir;
+  }
+
+ .list-notes span.content
+  {
+    background:$contentcir;
+  }
+
 }
 
 
