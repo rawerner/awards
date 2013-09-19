@@ -5,6 +5,7 @@ height: 287px;
 list-style: none;
 float:left;
 margin-top: 0px;
+padding-left:10px;
 }
 
 #tablebox
@@ -12,6 +13,11 @@ margin-top: 0px;
 width: auto;
 height: 287px;
 float:left;
+margin-top: 0px;
+
+  > ul{
+    padding-left:10px;
+  }
 
   ul li.tbltitle
   {
@@ -35,7 +41,13 @@ float:left;
 
   ul li .name
   {
-    width: 25%
+    width: 100px;
+  }
+
+  ul li .name a
+  {
+      color:$namelinks_color;
+      text-decoration: none;
   }
 
   ul li .website
@@ -48,6 +60,11 @@ float:left;
      transition: color .25s ease-out 0s;
      font-style: italic;
     }
+
+    a:hover
+      {
+       color:$websitelinks_color;
+      }
   }
 
   ul li .country

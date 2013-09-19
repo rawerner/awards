@@ -49,12 +49,16 @@ h6 {
   height: 287px;
   list-style: none;
   float: left;
-  margin-top: 0px; }
+  margin-top: 0px;
+  padding-left: 10px; }
 
 #tablebox {
   width: auto;
   height: 287px;
-  float: left; }
+  float: left;
+  margin-top: 0px; }
+  #tablebox > ul {
+    padding-left: 10px; }
   #tablebox ul li.tbltitle {
     border: 0 none;
     font-size: 0.9em;
@@ -67,12 +71,17 @@ h6 {
     float: left;
     overflow: hidden; }
   #tablebox ul li .name {
-    width: 25%; }
+    width: 100px; }
+  #tablebox ul li .name a {
+    color: #444444;
+    text-decoration: none; }
   #tablebox ul li .website {
     width: 35% a;
       width-text-decoration: none;
       width-transition: color .25s ease-out 0s;
       width-font-style: italic; }
+    #tablebox ul li .website a:hover {
+      color: #409f89; }
   #tablebox ul li .country {
     width: 17%; }
   #tablebox ul li .notes {
