@@ -1,0 +1,70 @@
+#circles
+{
+width: 85px;
+height: 287px;
+list-style: none;
+float:left;
+margin-top: 0px;
+}
+
+#tablebox
+{
+width: auto;
+height: 287px;
+float:left;
+
+  ul li.tbltitle
+  {
+   border: 0 none;
+   font-size: 0.9em;
+   line-height:normal;
+   text-transform: uppercase;
+  }
+
+  ul li
+  {
+   height: 30px;
+   overflow: hidden;
+  }
+
+  ul li div
+  {
+   float:left;
+   overflow:hidden;
+  }
+
+  ul li .name
+  {
+    width: 25%
+  }
+
+  ul li .website
+  {
+    width: 35%
+
+    a
+    {
+     text-decoration: none;
+     transition: color .25s ease-out 0s;
+     font-style: italic;
+    }
+  }
+
+  ul li .country
+  {
+    width: 17%
+  }
+
+  ul li .notes
+  {
+    width: 18%
+  }
+
+ ul li .note
+  {
+    width: 8%
+  }
+}
+
+
+

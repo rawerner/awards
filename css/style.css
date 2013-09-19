@@ -44,6 +44,42 @@ h6 {
   color: #95d1d9;
   font-size: 12px; }
 
+#circles {
+  width: 85px;
+  height: 287px;
+  list-style: none;
+  float: left;
+  margin-top: 0px; }
+
+#tablebox {
+  width: auto;
+  height: 287px;
+  float: left; }
+  #tablebox ul li.tbltitle {
+    border: 0 none;
+    font-size: 0.9em;
+    line-height: normal;
+    text-transform: uppercase; }
+  #tablebox ul li {
+    height: 30px;
+    overflow: hidden; }
+  #tablebox ul li div {
+    float: left;
+    overflow: hidden; }
+  #tablebox ul li .name {
+    width: 25%; }
+  #tablebox ul li .website {
+    width: 35% a;
+      width-text-decoration: none;
+      width-transition: color .25s ease-out 0s;
+      width-font-style: italic; }
+  #tablebox ul li .country {
+    width: 17%; }
+  #tablebox ul li .notes {
+    width: 18%; }
+  #tablebox ul li .note {
+    width: 8%; }
+
 body {
   font-family: "Varela", sans-serif;
   font-size: 12px;
